@@ -2,5 +2,9 @@
         <script type="text/javascript">
         window.onload = function () {
             populateSelector();
+            var prefstyle = readCookie("prefstyle");
+            if(prefstyle) {
+                setActiveStyleSheet(prefstyle);
+            }
         };
         </script>
