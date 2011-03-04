@@ -1,9 +1,20 @@
+html,body {
+	height: 100%;
+}
+
 body {
 	font-size: 80%;
 	font-family: Verdana, sans-serif;
     padding: 0 10%;
     margin: 0;
-    background-color: #CCC;
+    background-color: #F6F6F6;
+}
+
+#container {
+	border-right: 1px solid #999;
+	border-left: 1px solid #999;
+	height: 100%;
+	background-color: #FFF;
 }
 
 #stylesel {
@@ -13,16 +24,13 @@ body {
 #header {
 	margin: 0;
 	padding-top: 1.5em;
-    background-color: #FFF;
 }
 
 #logo {
-	background-color: white;
 	padding: 0.5em;
 }
 
 #menu {
-    background-color: #FFF;
 	margin: 0;
 }
 
@@ -71,7 +79,6 @@ body {
   * BODY
   */
 #body {
-    background-color: #FFF;
     margin: 0;
     padding: 0.5em 1em;
     min-height: 350px;
@@ -81,11 +88,18 @@ body {
   * FOOTER
   */
 #footer {
+	position: absolute;
+	bottom: 0;
+	left: 13%;
+	right: 13%;
 	font-size: xx-small;
 	padding: 0.7em;
-	border-top: 1px solid black;
 	margin-left: auto;
 	margin-right: auto;
     margin-top: 0;
-    background-color: #FFF;
+}
+
+#footer hr {
+	border-style: solid;
+	border-color: #000;
 }

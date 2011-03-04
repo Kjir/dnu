@@ -1,17 +1,27 @@
+div.central {
+	padding: 0 2em;
+}
+
 #menu ul {
-    border: 0;
     text-align: left;
-    padding-left: 3em;
+    padding-left: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
 }
 #menu li.current,
 #menu li:hover {
     border: 0;
 }
 
-#menu a {
-    color: #999;
+#menu a:link,
+#menu a:visited {
+    color: #000;
 }
 
 #menu li:hover a {
-    color: #000;
+    color: #999;
+}
+
+#body {
+	padding-left: 3em;
 }
