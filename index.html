@@ -5,31 +5,48 @@
 		<title>Homepage - Ducato Nuoto Urbino</title>
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="alternate stylesheet" type="text/css" href="style2.css" media="@screen" title="Style 2">
+		<link rel="alternate stylesheet" type="text/css" href="blue.css" media="@screen" title="Blue theme">
+		<link rel="alternate stylesheet" type="text/css" href="yellow.css" media="@screen" title="Yellow theme">
+		<link rel="alternate stylesheet" type="text/css" href="staz.css" media="@screen" title="Stazione delle Biciclette">
+
+        <script type="text/javascript" src="alternate.js"></script>
+        <script type="text/javascript">
+        window.onload = function () {
+            populateSelector();
+        };
+        </script>
 	</head>
 	<body>
-        <div id="header">
-            <div id="logo"><img src="images/logo.jpg" width="310" height="90" alt="DNU"></div>
-        </div>
-        <div id="menu">
-            <ul>
-                <li class="first current"><a href="index.html">Homepage</a></li><li><a
-                    href="attivita.html">Attivit&agrave;</a></li><li><a
-                    href="notizie.html">Notizie</a></li><li><a
-                    href="foto.html">Galleria fotografica</a></li><li><a
-                    href="contatti.html">Contatti</a></li></ul>
-        </div>
-        <div id="body">
-            <div class="news">
-                <dl>
-                    <dt>Nuovo sito Ducato Nuoto Urbino</dt>
-                    <dd>La Ducato Nuoto Urbino sta lavorando alla realizzazione di un nuovo sito Internet! Su questo sito saranno presenti tutte le informazioni su corsi, costi ed orari della Piscina.</dd>
-                    <dt>News 1</dt>
-                    <dd>Lorem ipsum...</dd>
-                    <dt>News 2</dt>
-                    <dd>Lorem ipsum...</dd>
-                </dl>
+        <div id="container">
+            <div id="header">
+                <div id="logo"><img src="images/logo.jpg" width="310" height="90" alt="DNU"></div>
             </div>
+            <div id="menu">
+                <ul>
+                    <li class="first current"><a href="index.html">Homepage</a></li><li><a
+                        href="attivita.html">Attivit&agrave;</a></li><li><a
+                        href="notizie.html">Notizie</a></li><li><a
+                        href="foto.html">Galleria fotografica</a></li><li><a
+                        href="contatti.html">Contatti</a></li>
+                        <select id="stylesel">
+                            <option value="No style">No style</option>
+                        </select>
+                        </ul>
+            </div>
+            <div id="body">
+                <div class="news">
+                    <dl>
+                        <dt>Nuovo sito Ducato Nuoto Urbino</dt>
+                        <dd>La Ducato Nuoto Urbino sta lavorando alla realizzazione di un nuovo sito Internet! Su questo sito saranno presenti tutte le informazioni su corsi, costi ed orari della Piscina.</dd>
+                        <dt>News 1</dt>
+                        <dd>Lorem ipsum...</dd>
+                        <dt>News 2</dt>
+                        <dd>Lorem ipsum...</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="footer">ASD Ducato Nuoto Urbino, Via L. Battiferri, 15 - 61029 Urbino (PU). Sede operativa Piazzale F.lii Cervi, 1 - 61029 Urbino (PU) tel. 0722 111 111 fax. 0722 222 222 e-mail: <a href="mailto:ducatonuoto@gmail.com">ducatonuoto@gmail.com</a> - Pagina Facebook: <a href="http://www.facebook.com/pages/Ducato-Nuoto-Urbino/146388187392">Ducato Nuoto Urbino</a></div>
         </div>
-        <div id="footer">ASD Ducato Nuoto Urbino, Via L. Battiferri, 15 - 61029 Urbino (PU). Sede operativa Piazzale F.lii Cervi, 1 - 61029 Urbino (PU) tel. 0722 111 111 fax. 0722 222 222 e-mail: <a href="mailto:ducatonuoto@gmail.com">ducatonuoto@gmail.com</a> - Pagina Facebook: <a href="http://www.facebook.com/pages/Ducato-Nuoto-Urbino/146388187392">Ducato Nuoto Urbino</a></div>
 	</body>
 </html>

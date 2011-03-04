@@ -1,8 +1,13 @@
 body {
 	font-size: 80%;
 	font-family: Verdana, sans-serif;
-    background-color: #CCC;
     padding: 0 10%;
+    margin: 0;
+    background-color: #CCC;
+}
+
+#stylesel {
+    float: right;
 }
 
 #header {
@@ -34,11 +39,6 @@ body {
 	padding: 0.5em 0;
 }
 
-#menu > ul .current ul,
-#menu > ul li:hover ul {
-	display: block;
-}
-
 #menu > ul {
 	margin: 0;
 	border-bottom: 0.4em solid #000;
@@ -56,16 +56,20 @@ body {
     color: #999;
 }
 
+#menu li.current a,
 #menu li:hover a {
     color: #D00;
 }
 
-#menu .current li,
+#menu li.current,
 #menu li:hover {
 	border-bottom: 0.2em solid #D00;
 	padding-bottom: 0.1em;
 }
 
+/**
+  * BODY
+  */
 #body {
     background-color: #FFF;
     margin: 0;
@@ -73,6 +77,9 @@ body {
     min-height: 350px;
 }
 
+/**
+  * FOOTER
+  */
 #footer {
 	font-size: xx-small;
 	padding: 0.7em;
