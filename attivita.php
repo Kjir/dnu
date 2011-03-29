@@ -15,7 +15,16 @@ require_once "settings.php";
 	<body>
 <?php include "header.php"; ?>
             <div id="body" class="central">
-                <h1>Attività</h1>
+                <div id="submenu">
+                    <?php print_menu(get_entries("attivita")); ?>
+                </div>
+                <?php
+                    if(!empty($_GET['a'])) {
+                        include 'attivita/' . basename($_GET['a']) . '.php';
+                    } else {
+                        include 'attivita/attivita.php';
+                    }
+                ?>
             </div>
 <?php include "footer.php"; ?>
 	</body>

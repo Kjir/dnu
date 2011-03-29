@@ -25,3 +25,16 @@ div.central {
 #body {
 	padding-left: 3em;
 }
+
+#submenu a {
+	color: #999;
+}
+
+#submenu li:hover a {
+	color: #000;
+}
+
+#submenu .current a {
+	color: #D00;
+}
+

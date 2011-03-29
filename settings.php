@@ -6,6 +6,13 @@ $menus["main_menu"] = array(
     'Galleria Fotografica' => 'foto.php',
     'Contatti' => 'contatti.php'
 );
+$menus["attivita"] = array(
+        'Nuoto Libero' => 'attivita.php?a=lib',
+        'Scuola Nuoto Adulti' => 'attivita.php?a=sna',
+        'Scuola Nuoto Bambini' => 'attivita.php?a=snb',
+        'Agonismo' => 'attivita.php?a=ago',
+        'Rieducazione Funzionale' => 'attivita.php?a=fun',
+);
 
 function get_entries($menu_name) {
     global $menus;
