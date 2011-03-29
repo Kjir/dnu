@@ -21,6 +21,12 @@ body {
     float: right;
 }
 
+#duck {
+    float: right;
+    position: relative;
+    top: 0.3em;
+}
+
 #header {
 	margin: 0;
 	padding-top: 1.5em;
@@ -37,6 +43,11 @@ body {
 
 #menu {
 	margin: 0;
+    /*
+    background-image: url('images/papera.png');
+    background-repeat: no-repeat;
+    background-position: 78% 61%;
+    */
 }
 
 #menu  li {
