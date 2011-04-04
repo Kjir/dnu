@@ -3,18 +3,20 @@ html,body {
 }
 
 body {
-	font-size: 80%;
-	font-family: Verdana, sans-serif;
+    font-size: 80%;
+    font-family: Verdana, sans-serif;
     padding: 0 10%;
     margin: 0;
     background-color: #F6F6F6;
 }
 
 #container {
-	border-right: 1px solid #999;
-	border-left: 1px solid #999;
-	height: 100%;
-	background-color: #FFF;
+    border-right: 1px solid #999;
+    border-left: 1px solid #999;
+    background-color: #FFF;
+    height: auto;
+    margin-bottom: 0;
+    padding-bottom: 5em;
 }
 
 #stylesel {
@@ -28,21 +30,21 @@ body {
 }
 
 #header {
-	margin: 0;
-	padding-top: 1.5em;
+    margin: 0;
+    padding-top: 1.5em;
 }
 
 #logo {
-	padding: 0.5em;
+    padding: 0.5em;
 }
 
 #op_hours {
-	font-size: xx-small;
-	float: right;
+    font-size: xx-small;
+    float: right;
 }
 
 #menu {
-	margin: 0;
+    margin: 0;
     /*
     background-image: url('images/papera.png');
     background-repeat: no-repeat;
@@ -51,29 +53,29 @@ body {
 }
 
 #menu  li {
-	display: inline;
+    display: inline;
     position: relative;
     bottom: -0.4em;
     padding: 0;
 }
 
 #menu ul {
-	font-weight: bold;
-	text-align: center;
-	padding: 0.5em 0;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5em 0;
 }
 
 #menu > ul {
-	margin: 0;
-	border-bottom: 0.4em solid #000;
+    margin: 0;
+    border-bottom: 0.4em solid #000;
 }
 
 #menu a {
-	color: #000;
-	padding 0.5em 0;
-	margin: -0.5em 1em;
-	text-decoration: none;
-	white-space: nowrap;
+    color: #000;
+    padding: 0.5em 0;
+    margin: -0.5em 1em;
+    text-decoration: none;
+    white-space: nowrap;
 }
 
 #menu a:visited {
@@ -87,8 +89,8 @@ body {
 
 #menu li.current,
 #menu li:hover {
-	border-bottom: 0.2em solid #D00;
-	padding-bottom: 0.1em;
+    border-bottom: 0.2em solid #D00;
+    padding-bottom: 0.1em;
 }
 
 /**
@@ -102,60 +104,76 @@ body {
 
 .news dl {
     width: 80%;
-	border: 1px dotted #000;
+    border: 1px dotted #000;
     padding: 1.5em;
     margin-left: auto;
     margin-right: auto;
 }
 
 .news dt {
-	width: 40%;
+    width: 40%;
     background-repeat: no-repeat;
     background-position: right;
-	background-color: white;
+    background-color: white;
     background-image: url('images/dotarrow-white.png');
-	color: black;
+    color: #000;
     font-weight: bold;
     margin-bottom: 0.7em;
 }
 .news dd {
-	width: 100%;
-	margin: 0;
+    width: 100%;
+    margin: 0;
     margin-bottom: 1em;
 }
 
 #submenu {
     border-right: 1px dashed grey;
-    height: 100%;
     width: 17em;
+    height: 200px;
     float: left;
+    position: absolute;
     margin-right: 2em;
 }
 
 #submenu li {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 #submenu a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
+#submenu + * {
+    margin-left: 18em;
+}
+
+h1 {
+    border-bottom: 1px dashed black;
+}
+
+tr {
+    border-bottom: 1px solid #999; 
+}
 /**
   * FOOTER
   */
 #footer {
-	position: absolute;
-	bottom: 0;
-	left: 13%;
-	right: 13%;
-	font-size: xx-small;
-	padding: 0.7em;
-	margin-left: auto;
-	margin-right: auto;
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+    font-size: xx-small;
+    padding: 0.7em;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0;
+    padding: 0 5%;
+    background-color: #FFF;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
 }
 
 #footer hr {
-	border-style: solid;
-	border-color: #000;
+    border-style: solid;
+    border-color: #000;
 }
