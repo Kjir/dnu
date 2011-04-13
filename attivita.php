@@ -18,6 +18,7 @@ require_once "settings.php";
                 <div id="submenu">
                     <?php print_menu(get_entries("attivita")); ?>
                 </div>
+                <div>
                 <?php
                     if(!empty($_GET['a'])) {
                         include 'attivita/' . basename($_GET['a']) . '.php';
@@ -25,6 +26,7 @@ require_once "settings.php";
                         include 'attivita/attivita.php';
                     }
                 ?>
+                </div>
             </div>
 <?php include "footer.php"; ?>
 	</body>
