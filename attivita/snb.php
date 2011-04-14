@@ -1,17 +1,19 @@
-<h1>Scuola Nuoto Adulti</h1>
+<h1>Scuola Nuoto Bambini</h1>
 <h4>SCUOLA NUOTO, PERCHE'?</h4>
-<blockquote>Non è mai troppo tardi per imparare a nuotare o per perfezionare i vostri stili di nuoto.</blockquote>
-La scuola nuoto è il punto di partenza imprescindibile di ogni attività che si svolga
-all'interno di un impianto natatorio. Finalità principale della scuola nuoto è quella di
-fornire gli strumenti adeguati per trovarsi a proprio agio in un ambiente estraneo come
-l'acqua, ma anche quella di gettare le basi per chi vuole fare del nuoto il proprio sport.
+<blockquote>Niente paura. Imparare a nuotare è più semplice di quanto immaginiate.</blockquote>
+
+La scuola nuoto è il punto di partenza imprescindibile di ogni attività che si svolga all'interno
+di un impianto natatorio. Finalità principale della scuola nuoto è quella di fornire gli strumenti
+adeguati per trovarsi a proprio agio in un ambiente estraneo come l'acqua, ma anche quella di gettare le
+basi per chi vuole fare del nuoto il proprio sport. Prima di tutto però è importante che i bambini si
+divertano e sviluppino un rapporto equilibrato con l'ambiente acquatico.
 
 <h4>ORARI E GIORNI</h4>
 <ul>
-    <li>Martedì e Giovedì: 14:15 - 15:00</li>
-    <li>Martedì e Giovedì: 19:00 - 19:45</li>
-    <li>Martedì e Giovedì: 19:45 - 20:30</li>
-    <li>Martedì e Giovedì: 20:30 - 21:15</li>
+     <li>Lunedì e Giovedì: 16:15 - 17:00</li>
+    <li>Lunedì e Giovedì: 17:00 - 17:45</li>
+    <li>Martedì e Venerdì: 16:15 - 17:00</li>
+    <li>Martedì e Venerdì: 17:00 - 17:45</li>
 </ul>
 <h4>COSTI</h4>
 <table>
@@ -56,5 +58,3 @@ l'acqua, ma anche quella di gettare le basi per chi vuole fare del nuoto il prop
 
 <strong>PER ISCRIVERSI E' NECESSARIO MUNIRSI DI CERTIFICATO MEDICO
 DI SANA E ROBUSTA COSTITUZIONE.</strong>
-
-

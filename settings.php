@@ -8,6 +8,7 @@ $menus["main_menu"] = array(
 );
 $menus["attivita"] = array(
         'Nuoto Libero' => 'attivita.php?a=lib',
+        'Aquagym' => 'attivita.php?a=gym',
         'Scuola Nuoto Adulti' => 'attivita.php?a=sna',
         'Scuola Nuoto Bambini' => 'attivita.php?a=snb',
         'Agonismo' => 'attivita.php?a=ago',

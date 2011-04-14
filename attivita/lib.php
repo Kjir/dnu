@@ -56,8 +56,5 @@ Indicato anche a chi volesse integrare con attività libera un corso frequentato
     <li>13&euro; per i minori di 16 anni</li>
 </ul>
 
-<strong>PER ISCRIVERSI E'
-NECESSARIO MUNIRSI
-DI CERTIFICATO MEDICO
-DI SANA E ROBUSTA
-COSTITUZIONE.</strong>
+<strong>PER ISCRIVERSI E' NECESSARIO MUNIRSI DI CERTIFICATO MEDICO
+DI SANA E ROBUSTA COSTITUZIONE.</strong>
