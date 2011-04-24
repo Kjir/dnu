@@ -5,9 +5,6 @@ mar-gio: 14:00 - 22:00<br>
 sab: 10:00 - 13:30</div></div>
             </div>
             <div id="menu" class="central">
-                        <select id="stylesel">
-                            <option value="No style">No style</option>
-                        </select>
                         <img src="images/papera.png" width="48" height="30" alt="" id="duck">
                         <?php print_menu(get_entries("main_menu")); ?>
             </div>

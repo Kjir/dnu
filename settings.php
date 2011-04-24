@@ -2,13 +2,13 @@
 $menus["main_menu"] = array(
     'Homepage' => 'index.php',
     'Attività' => 'attivita.php',
-    'Notizie' => 'notizie.php',
-    'Galleria Fotografica' => 'foto.php',
+    'Novità' => 'notizie.php',
+    'Eventi' => 'foto.php',
     'Contatti' => 'contatti.php'
 );
 $menus["attivita"] = array(
         'Nuoto Libero' => 'attivita.php?a=lib',
-        'Aquagym' => 'attivita.php?a=gym',
+        'Acquafitness' => 'attivita.php?a=gym',
         'Scuola Nuoto Adulti' => 'attivita.php?a=sna',
         'Scuola Nuoto Bambini' => 'attivita.php?a=snb',
         'Agonismo' => 'attivita.php?a=ago',

@@ -13,6 +13,7 @@ body {
 #container {
     border-right: 1px solid #999;
     border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
     background-color: #FFF;
     height: auto;
     margin-bottom: 0;
@@ -36,6 +37,11 @@ body {
 
 #logo {
     padding: 0.5em;
+    height: 90px;
+}
+
+#logo img { 
+    float: left;
 }
 
 #op_hours {
@@ -158,8 +164,8 @@ tr {
   * FOOTER
   */
 #footer {
-    position: fixed;
-    bottom: 0;
+/*    position: fixed;
+    bottom: 0;*/
     left: 10%;
     right: 10%;
     font-size: xx-small;
@@ -168,9 +174,9 @@ tr {
     margin-right: auto;
     margin-top: 0;
     padding: 0 5%;
-    background-color: #FFF;
+    /*background-color: #FFF;
     border-left: 1px solid #999;
-    border-right: 1px solid #999;
+    border-right: 1px solid #999;*/
 }
 
 #footer hr {
