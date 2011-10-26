@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="logo con scritta.svg"
+   inkscape:export-filename="/Users/michelemunno/Desktop/nuovo logo.png"
+   inkscape:export-xdpi="43.225971"
+   inkscape:export-ydpi="43.225971">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:label="filtro1"
+       id="filter3323">
+      <feGaussianBlur
+         result="result1"
+         id="feGaussianBlur3325"
+         stdDeviation="0.80000000000000004" />
+      <feBlend
+         in2="result1"
+         id="feBlend3327"
+         blend="normal" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.54269443"
+     inkscape:cx="701.27976"
+     inkscape:cy="411.8436"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1278"
+     inkscape:window-height="1003"
+     inkscape:window-x="0"
+     inkscape:window-y="19"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2987"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-68.739839,323.9221)"><flowRegion
+         id="flowRegion2989"><rect
+           id="rect2991"
+           width="226"
+           height="104"
+           x="60"
+           y="421.36218" /></flowRegion><flowPara
+         id="flowPara2993" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2995"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-68.739839,323.9221)"><flowRegion
+         id="flowRegion2997"><rect
+           id="rect2999"
+           width="29"
+           height="50"
+           x="102"
+           y="428.36218" /></flowRegion><flowPara
+         id="flowPara3001">D</flowPara></flowRoot>    <path
+       style="fill:#110fa7;fill-opacity:1"
+       d="m 41.707149,163.55185 c 0,-29.69944 15.11176,-65.035528 35.404635,-82.787231 C 118.15642,44.859765 172.86401,54.902098 196.92293,102.75763 l 5.50764,10.95521 0,-27.266244 0,-27.266276 4.03916,0 c 2.59818,0 29.99012,16.831629 76.78124,47.18004 40.00816,25.94903 74.3533,48.63082 76.32256,50.40399 l 3.58048,3.22398 0,-48.01703 0,-48.017022 4.51887,0 c 4.5152,0 4.52036,0.01275 6.36746,15.042298 4.78495,38.935794 20.54912,65.691564 45.6578,77.492744 32.08664,15.0808 71.8641,-0.82025 90.16417,-36.04314 6.97108,-13.41743 10.60332,-26.766763 11.91649,-43.795638 l 0.97903,-12.696264 4.77811,0 4.77811,0 -0.9675,14.72934 c -2.47811,37.725822 -21.84643,70.209012 -50.37143,84.479492 -40.07476,20.0486 -80.43261,6.09095 -103.52797,-35.80488 l -4.68757,-8.50337 -0.0288,26.65463 -0.0288,26.65463 -4.27356,0 c -2.35047,0 -5.75192,-1.3111 -7.55878,-2.91358 -1.80691,-1.60246 -27.63247,-18.69293 -57.39017,-37.97884 -29.75768,-19.28589 -62.50499,-40.518219 -72.77178,-47.182958 l -18.66687,-12.117704 1.02128,50.096542 1.02125,50.09654 -6.62202,0 -6.62204,0 -0.006,-8.35444 c -0.003,-4.59494 -1.00903,-14.44124 -2.23489,-21.88067 -4.2139,-25.57286 -11.28748,-40.87923 -25.41504,-54.995062 -19.7359,-19.719495 -46.61443,-23.344953 -73.329355,-9.890872 -5.758868,2.900263 -13.763048,9.060883 -19.968869,15.369534 -15.543991,15.80155 -23.923238,34.69603 -27.78149,62.6448 l -1.04348,7.55878 68.524324,0 68.5243,0 0,4.77397 0,4.77396 -73.20077,0 -73.200761,0 0,-8.61227 z m 46.871628,-49.39861 c -2.148288,-2.1483 -3.905958,-5.40326 -3.905958,-7.23329 0,-4.29338 6.845861,-11.139245 11.139249,-11.139245 4.293392,0 11.139242,6.845865 11.139242,11.139245 0,4.29338 -6.84585,11.13925 -11.139242,11.13925 -1.830026,0 -5.085004,-1.75768 -7.233291,-3.90596 z"
+       id="path3131"
+       inkscape:connector-curvature="0" />
+    <flowRoot
+       transform="matrix(1.8102723,0,0,1.591321,-326.55482,-644.47057)"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#110fa7;fill-opacity:1;stroke:none;font-family:Futura Md;-inkscape-font-specification:Futura Md"
+       id="flowRoot5372"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5374"><rect
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#110fa7;fill-opacity:1;font-family:Futura Md;-inkscape-font-specification:Futura Md"
+           y="512.86218"
+           x="203"
+           height="25.5"
+           width="303"
+           id="rect5376" /></flowRegion><flowPara
+         id="flowPara5380">ASD DUCATO NUOTO URBINO</flowPara></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline" />
+</svg>

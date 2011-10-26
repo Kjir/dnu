@@ -14,16 +14,25 @@ require_once "settings.php";
 	<body>
 <?php include "header.php"; ?>
             <div id="body" class="central">
+                <h1>Ultime notizie dalla Ducato Nuoto</h1>
                 <div class="news">
                     <dl>
+                        <dt>Settimana di apertura straordinaria</dt>
+                        <dd>La Piscina F.lli Cervi rimarrà aperta fino al 09/07/2011 con i consueti orari per il nuoto libero.</dd>
+                        <dt>Nuova stagione sportiva 2011/2012</dt>
+                        <dd>Le attività sportive promosse dalla Ducato Nuoto Urbino sono confermate fino alla fine di Dicembre. Ad Agosto sarà quindi possibile frequentare i corsi estivi, mentre da Settembre si avvierà la stagione sportiva 2011/2012.</dd>
                         <dt>Nuovo sito Ducato Nuoto Urbino</dt>
                         <dd>La Ducato Nuoto Urbino sta lavorando alla realizzazione di un nuovo sito Internet! Su questo sito saranno presenti tutte le informazioni su corsi, costi ed orari della Piscina.</dd>
-                        <dt>News 1</dt>
-                        <dd>Lorem ipsum...</dd>
-                        <dt>News 2</dt>
-                        <dd>Lorem ipsum...</dd>
                     </dl>
                 </div>
+                <div class="half left">
+                    <h1>Attività in promozione</h1>
+                    Avviate le iscrizioni per il corso esitivo di <a href="attivita.php?a=snb">Scuola nuoto Bambini</a>.
+                </div>
+                <div class="half right">
+                    <h1>Ultimi eventi</h1>
+                </div>
+                <div class="spacer"></div>
             </div>
 <?php include "footer.php"; ?>
 	</body>

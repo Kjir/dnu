@@ -183,3 +183,20 @@ tr {
     border-style: solid;
     border-color: #000;
 }
+
+.half {
+    width: 45%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.spacer {
+    clear: both;
+    height: 5em;
+}
