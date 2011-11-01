@@ -6,7 +6,7 @@ require_once "settings.php";
 		"http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
-		<title>Attività - Ducato Nuoto Urbino</title>
+		<title>Notizie - Ducato Nuoto Urbino</title>
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 
 <?php include "styles.php"; ?>
