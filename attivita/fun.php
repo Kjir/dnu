@@ -46,8 +46,8 @@ DA CONCORDARE
 
 <h5>ISCRIZIONE OBBLIGATORIA</h5>
 <ul>
-    <li>18&euro; per gli adulti</li>
-    <li>13&euro; per i minori di 16 anni</li>
+    <li>10&euro; per gli adulti</li>
+    <li>7&euro; per i minori di 16 anni</li>
 </ul>
 
 <strong>PER ISCRIVERSI E' NECESSARIO MUNIRSI DI CERTIFICATO MEDICO

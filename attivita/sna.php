@@ -8,50 +8,34 @@ l'acqua, ma anche quella di gettare le basi per chi vuole fare del nuoto il prop
 
 <h4>ORARI E GIORNI</h4>
 <ul>
-    <li>Martedì e Giovedì: 14:15 - 15:00</li>
-    <li>Martedì e Giovedì: 19:00 - 19:45</li>
-    <li>Martedì e Giovedì: 19:45 - 20:30</li>
-    <li>Martedì e Giovedì: 20:30 - 21:15</li>
+    <li>Martedì e Giovedì: 14:15 - 15:05</li>
+    <li>Martedì e Giovedì: 19:10 - 20:00</li>
+    <li>Martedì e Giovedì: 20:15 - 21:05</li>
 </ul>
 <h4>COSTI</h4>
 <table>
     <thead>
         <tr>
-            <th></th>
             <th>1 ingresso prova</th>
             <th>4 ingressi</th>
             <th>8 ingressi</th>
             <th>12 ingressi</th>
-            <th>trimestrale</th>
-            <th>annuale</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>con scadenza</td>
-            <td>&dash;</th>
-            <td>26&euro;<br>(2 settimane)</td>
-            <td>50&euro;<br>(1 mese)</td>
-            <td>70&euro;<br>(2 mesi)</td>
-            <td>130&euro;<br>(3 mesi)</td>
-            <td>350&euro;<br>(12 mesi)</td>
-        </tr>
-        <tr>
-            <td>senza scadenza</td>
-            <td>7&euro;</td>
-            <td>28&euro;</td>
-            <td>55&euro;</td>
-            <td>80&euro;</td>
-            <td>&dash;</td>
-            <td>&dash;</td>
+            <td>(compreso nell'iscrizione)</th>
+            <td>26&euro;</td>
+            <td>50&euro;</td>
+            <td>70&euro;</td>
         </tr>
     </tbody>
 </table>
 
 <h5>ISCRIZIONE OBBLIGATORIA</h5>
 <ul>
-    <li>18&euro; per gli adulti</li>
-    <li>13&euro; per i minori di 16 anni</li>
+    <li>10&euro; per gli adulti</li>
+    <li>7&euro; per i minori di 16 anni</li>
 </ul>
 
 <strong>PER ISCRIVERSI E' NECESSARIO MUNIRSI DI CERTIFICATO MEDICO

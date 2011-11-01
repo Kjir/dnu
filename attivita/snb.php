@@ -10,50 +10,35 @@ divertano e sviluppino un rapporto equilibrato con l'ambiente acquatico.
 
 <h4>ORARI E GIORNI</h4>
 <ul>
-     <li>Lunedì e Giovedì: 16:15 - 17:00</li>
-    <li>Lunedì e Giovedì: 17:00 - 17:45</li>
-    <li>Martedì e Venerdì: 16:15 - 17:00</li>
-    <li>Martedì e Venerdì: 17:00 - 17:45</li>
+     <li>Lunedì e Giovedì: 16:10 - 17:00</li>
+    <li>Lunedì e Giovedì: 17:10 - 18:00</li>
+    <li>Martedì e Venerdì: 16:10 - 17:00</li>
+    <li>Martedì e Venerdì: 17:10 - 18:00</li>
 </ul>
 <h4>COSTI</h4>
 <table>
     <thead>
         <tr>
-            <th></th>
             <th>1 ingresso prova</th>
             <th>4 ingressi</th>
             <th>8 ingressi</th>
             <th>12 ingressi</th>
-            <th>trimestrale</th>
-            <th>annuale</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>con scadenza</td>
-            <td>&dash;</th>
-            <td>26&euro;<br>(2 settimane)</td>
-            <td>50&euro;<br>(1 mese)</td>
-            <td>70&euro;<br>(2 mesi)</td>
-            <td>130&euro;<br>(3 mesi)</td>
-            <td>350&euro;<br>(12 mesi)</td>
-        </tr>
-        <tr>
-            <td>senza scadenza</td>
-            <td>7&euro;</td>
-            <td>28&euro;</td>
-            <td>55&euro;</td>
-            <td>80&euro;</td>
-            <td>&dash;</td>
-            <td>&dash;</td>
+            <td>(compreso nell'iscrizione)</th>
+            <td>26&euro;</td>
+            <td>50&euro;</td>
+            <td>70&euro;</td>
         </tr>
     </tbody>
 </table>
 
 <h5>ISCRIZIONE OBBLIGATORIA</h5>
 <ul>
-    <li>18&euro; per gli adulti</li>
-    <li>13&euro; per i minori di 16 anni</li>
+    <li>10&euro; per gli adulti</li>
+    <li>7&euro; per i minori di 16 anni</li>
 </ul>
 
 <strong>PER ISCRIVERSI E' NECESSARIO MUNIRSI DI CERTIFICATO MEDICO
