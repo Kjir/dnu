@@ -18,8 +18,7 @@ Pagamento in tre rate. Rivolgersi in segreteria per ulteriori dettagli.
 
 <h5>ISCRIZIONE OBBLIGATORIA</h5>
 <ul>
-    <li>10&euro; per gli adulti</li>
-    <li>7&euro; per i minori di 16 anni</li>
+    <li>50&euro; comprensivo del kit agonismo (cuffia, maglietta, pantaloncino, zaino e telo)</li>
 </ul>
 
 <strong>PER ISCRIVERSI E' NECESSARIO MUNIRSI DI CERTIFICATO MEDICO PER ATTIVITA' AGONISTICA</strong>
