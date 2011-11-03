@@ -14,19 +14,21 @@ l'acqua, ma anche quella di gettare le basi per chi vuole fare del nuoto il prop
 </ul>
 <h4>COSTI</h4>
 <table>
-    <thead>
-        <tr>
-            <th>1 ingresso prova</th>
-            <th>4 ingressi</th>
-            <th>8 ingressi</th>
-            <th>12 ingressi</th>
-        </tr>
-    </thead>
     <tbody>
         <tr>
-            <td>(compreso nell'iscrizione)</th>
+            <td>1 ingresso prova</td>
+            <td>(compreso nell'iscrizione)</td>
+        </tr>
+        <tr>
+            <td>4 ingressi</td>
             <td>26&euro;</td>
+        </tr>
+        <tr>
+            <td>8 ingressi</td>
             <td>50&euro;</td>
+        </tr>
+        <tr>
+            <td>12 ingressi</td>
             <td>70&euro;</td>
         </tr>
     </tbody>

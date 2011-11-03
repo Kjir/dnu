@@ -16,29 +16,25 @@ DA CONCORDARE
     <thead>
         <tr>
             <th></th>
-            <th>1 ingresso</th>
-            <th>10 ingressi</th>
+            <th>1&deg; ciclo</th>
+            <th>2&deg; ciclo</th>
+            <th>3&deg; ciclo</th>
+            <th>4&deg; ciclo</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>1° ciclo</td>
+            <td>1 ingresso</td>
             <td>20&euro;</th>
+            <td>20&euro;</th>
+            <td>20&euro;</th>
+            <td>20&euro;</th>
+        </tr>
+        <tr>
+            <td>10 ingressi</td>
             <td>160&euro;</td>
-        </tr>
-        <tr>
-            <td>2° ciclo</td>
-            <td>20&euro;</th>
             <td>130&euro;</td>
-        </tr>
-        <tr>
-            <td>3° ciclo</td>
-            <td>20&euro;</th>
             <td>100&euro;</td>
-        </tr>
-        <tr>
-            <td>4° ciclo</td>
-            <td>20&euro;</th>
             <td>80&euro;</td>
         </tr>
     </tbody>

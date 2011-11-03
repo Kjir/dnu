@@ -14,19 +14,21 @@ Indicato anche a chi volesse integrare con attività libera un corso frequentato
 
 <h4>COSTI</h4>
 <table>
-    <thead>
-        <tr>
-            <th>1 ingresso</th>
-            <th>4 ingressi</th>
-            <th>8 ingressi</th>
-            <th>12 ingressi</th>
-        </tr>
-    </thead>
     <tbody>
         <tr>
-            <td>6&euro;</th>
+            <td>1 ingresso</td>
+            <td>6&euro;</td>
+        </tr>
+        <tr>
+            <td>4 ingressi</td>
             <td>22&euro;</td>
+        </tr>
+        <tr>
+            <td>8 ingressi</td>
             <td>40&euro;</td>
+        </tr>
+        <tr>
+            <td>12 ingressi</td>
             <td>50&euro;</td>
         </tr>
     </tbody>
