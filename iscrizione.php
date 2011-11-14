@@ -60,6 +60,7 @@ if(!empty($_POST)) {
                         <option value="LI">Lezioni individuali</option>
                         <option value="FUN">Rieducazione funzionale</option>
                     </select>
+                </fieldset>
                 <fieldset>
                 <legend>Dati atleta</legend>
                     <label for="aname">Nome:</label>
