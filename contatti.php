@@ -48,8 +48,7 @@ require_once "settings.php";
                 <address>ASD Ducato Nuoto Urbino<br>
                 Piazzale F.lii Cervi, 1<br>
                 61029 Urbino (PU)<br>
-                tel. 0722 320 834<br>
-                fax. 0722 222 222<br>
+                tel./fax 0722 320 834<br>
                 e-mail: <a href="mailto:ducatonuoto@gmail.com">ducatonuoto@gmail.com</a><br>
                 Pagina Facebook: <a href="http://www.facebook.com/pages/Ducato-Nuoto-Urbino/146388187392">Ducato Nuoto Urbino</a>
                 </address>
