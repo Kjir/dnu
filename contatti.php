@@ -51,7 +51,7 @@ require_once "settings.php";
                 tel./fax 0722 320 834<br>
                 cell. 328 748 96 95<br>
                 e-mail: <a href="mailto:ducatonuoto@gmail.com">ducatonuoto@gmail.com</a><br>
-                Pagina Facebook: <a href="http://www.facebook.com/pages/Ducato-Nuoto-Urbino/146388187392">Ducato Nuoto Urbino</a>
+                Pagina Facebook: <a href="http://www.facebook.com/pages/Ducato-Nuoto-Urbino/146388187392"><img src="images/facebook.png" width="20" height="20" alt="Ducato Nuoto Urbino" title="Ducato Nuoto Urbino"></a>
                 </address>
                 <div style="clear: both;">
             </div>
