@@ -98,11 +98,16 @@ if(!empty($_POST)) {
                 </fieldset>
                 <fieldset>
                     <legend>Accettazione</legend>
-                    <textarea name="privacy" cols="80" rows="10">
+                    <textarea name="priv" cols="80" rows="10">
 <?php include "privacy.txt"; ?>
                     </textarea><br>
+                    <input type="checkbox" name="privacy" id="privacy" value="1">
+                    <label for="privacy">Dichiaro di aver letto l’informativa sulla privacy e quindi autorizzo l’associazione in riferimento al decreto 196 del 30/06/2003 (testo unico sulla privacy) ad utilizzare i miei dati per gli scopi istituzionali e per quelli previsti da suddetta informativa.</label><br>
+                    <textarea name="acceptance" cols="80" rows="10">
+<?php include "acceptance.txt"; ?>
+                    </textarea><br>
                     <input type="checkbox" name="accept" id="accept" value="1">
-                    <label for="accept">Ho letto e accetto l'informativa sulla privacy</label><br>
+                    <label for="accept">Dichiaro di aver letto ed accettato le precedenti condizioni</label><br>
                     <input type="checkbox" name="news" id="news" value="1">
                     <label for="news">Desidero ricevere via e-mail gli aggiornamenti su chiusure straordinarie, novità, promozioni e altre informazioni riguardanti le attività della piscina</label>
                 </fieldset>
