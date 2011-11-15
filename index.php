@@ -17,21 +17,22 @@ require_once "settings.php";
                 <h1>Ultime notizie dalla Ducato Nuoto</h1>
                 <div class="news">
                     <dl>
-                        <dt>Settimana di apertura straordinaria</dt>
-                        <dd>La Piscina F.lli Cervi rimarrà aperta fino al 09/07/2011 con i consueti orari per il nuoto libero.</dd>
-                        <dt>Nuova stagione sportiva 2011/2012</dt>
-                        <dd>Le attività sportive promosse dalla Ducato Nuoto Urbino sono confermate fino alla fine di Dicembre. Ad Agosto sarà quindi possibile frequentare i corsi estivi, mentre da Settembre si avvierà la stagione sportiva 2011/2012.</dd>
-                        <dt>Nuovo sito Ducato Nuoto Urbino</dt>
-                        <dd>La Ducato Nuoto Urbino sta lavorando alla realizzazione di un nuovo sito Internet! Su questo sito saranno presenti tutte le informazioni su corsi, costi ed orari della Piscina.</dd>
+                        <dt>Corsi di nuoto</dt>
+                        <dd>Al via la nuova stagione con tutti i corsi di nuoto per bambini e adulti.</dd>
+                        <dt>Orari segreteria</dt>
+                        <dd>Per informazioni sui corsi o su come iscriversi potete venire a trovarci in segreteria presso la Piscina "F.lli Cervi" dalle ore 16.00 alle ore 20.15 tutti i giorni dal lunedì al venerdì.</dd>
+                        <dt>Agonismo</dt>
+                        <dd>Nuova stagione per gli atleti della Ducato Nuoto che partono subito forte con delle ottime prestazioni.<br>
+Per far parte della squadra di nuoto agonistico o di nuoto master chiamare il numero 3287489695 o presentarsi in piscina per fissare una prova.</dd>
                     </dl>
                 </div>
-                <div class="half left">
+                <!--<div class="half left">
                     <h1>Attività in promozione</h1>
                     Avviate le iscrizioni per il corso esitivo di <a href="attivita.php?a=snb">Scuola nuoto Bambini</a>.
                 </div>
                 <div class="half right">
                     <h1>Ultimi eventi</h1>
-                </div>
+                </div>-->
                 <div class="spacer"></div>
             </div>
 <?php include "footer.php"; ?>
