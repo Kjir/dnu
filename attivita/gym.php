@@ -1,9 +1,9 @@
-<h1>Acquafitness</h1>
-<h4>ACQUAFITNESS, PERCHE'</h4>
+<h1>Acquagym</h1>
+<h4>ACQUAGYM, PERCHE'</h4>
 <blockquote>
-Il fitness in acqua per tenersi sempre in forma e divertirsi a ritmo di musica
+La ginnastica in acqua per tenersi sempre in forma e divertirsi a ritmo di musica
 </blockquote>
-Acquafitness comprende tutte quelle attività in acqua che hanno come finalità principale quella di
+Acquagym comprende tutte quelle attività in acqua che hanno come finalità principale quella di
 mantenere la forma fisica, migliorarla e potenziarne le capacità.
 I principi del fitness in acqua sono essenzialmente due:
 <ul>
@@ -11,8 +11,8 @@ I principi del fitness in acqua sono essenzialmente due:
     <li>La quasi totale assenza di gravità e la posizione verticale in cui si eseguono gli esercizi
       favoriscono il drenaggio dei liquidi e migliorano la circolazione sanguigna</li>
 </ul>
-I corsi di acquafitness hanno durata di 8 lezioni
-in cui si alternano lavori aerobici e di potenziamento muscolare.
+I corsi di acquagym hanno durata di 50 minuti
+in cui si alternano lavori aerobici e di potenziamento muscolare sempre divertendosi a ritmo di musica.
 
 <h4>ORARI E GIORNI</h4>
 <ul>
