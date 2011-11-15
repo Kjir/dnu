@@ -104,7 +104,7 @@ if(!empty($_POST)) {
                     <input type="checkbox" name="accept" id="accept" value="1">
                     <label for="accept">Ho letto e accetto l'informativa sulla privacy</label><br>
                     <input type="checkbox" name="news" id="news" value="1">
-                    <label for="news">Desidero ricevere per e-mail gli aggiornamenti su chiusure straordinarie, novità, promozioni e altre informazioni riguardanti le attività della piscina</label>
+                    <label for="news">Desidero ricevere via e-mail gli aggiornamenti su chiusure straordinarie, novità, promozioni e altre informazioni riguardanti le attività della piscina</label>
                 </fieldset>
                 <input type="submit" value="Invia">
             </form>

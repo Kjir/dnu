@@ -49,6 +49,7 @@ require_once "settings.php";
                 Piazzale F.lii Cervi, 1<br>
                 61029 Urbino (PU)<br>
                 tel./fax 0722 320 834<br>
+                cell. 328 748 96 95<br>
                 e-mail: <a href="mailto:ducatonuoto@gmail.com">ducatonuoto@gmail.com</a><br>
                 Pagina Facebook: <a href="http://www.facebook.com/pages/Ducato-Nuoto-Urbino/146388187392">Ducato Nuoto Urbino</a>
                 </address>
