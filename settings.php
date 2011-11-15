@@ -2,8 +2,9 @@
 $menus["main_menu"] = array(
     'Homepage' => 'index.php',
     'Attività' => 'attivita.php',
-    'Novità' => 'notizie.php',
-    'Eventi' => 'foto.php',
+    'Iscrizione' => 'iscrizione.php',
+#    'Novità' => 'notizie.php',
+#    'Eventi' => 'foto.php',
     'Contatti' => 'contatti.php'
 );
 $menus["attivita"] = array(
