@@ -13,6 +13,9 @@ require_once "settings.php";
 	</head>
 	<body>
 <?php include "header.php"; ?>
+            <div id="banner" class="central">
+                <img src="images/pictures/main.jpg" width="580" height="335" alt="" title="">
+            </div>
             <div id="body" class="central">
                 <h1>Ultime notizie dalla Ducato Nuoto</h1>
                 <div class="news">

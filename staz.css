@@ -2,6 +2,10 @@ div.central {
     padding: 0 2em;
 }
 
+#menu {
+    padding-bottom: 2em;
+}
+
 #menu ul {
     text-align: left;
     padding-left: 0.5em;
@@ -20,6 +24,14 @@ div.central {
 
 #menu li:hover a {
     color: #999;
+}
+
+#banner {
+    /*
+    background-color: #3E96FA;
+    */
+    padding: 2em;
+    text-align: center;
 }
 
 #body {

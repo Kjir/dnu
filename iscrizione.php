@@ -47,6 +47,7 @@ if(!empty($_POST)) {
 <?php if(!$accept): ?>
                 <strong class="error">L'accettazione dell'informativa sulla privacy è necessaria per iscriversi</strong>
 <?php endif; ?>
+            <div id="explanation">In questa pagina è possibile registrare i propri dati, i quali saranno inviati automaticamente alla segreteria della Piscina F.lli Cervi. Bisognerà presentarsi presso la segreteria negli orari di apertura per apporre la firma sul modulo di adesione pre-compilato ed ufficializzare la richiesta di adesione all'Associazione Sportiva Dilettantistica Ducato Nuoto Urbino.</div>
             <form action="iscrizione.php" method="POST">
                 <fieldset>
                     <legend>Attività scelta</legend>
