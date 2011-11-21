@@ -206,3 +206,13 @@ tr {
     padding: 0.2em;
     border: 0.2em solid #666;
 }
+
+.img_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.img_list li {
+    display: inline-block;
+    margin: 0.3em;
+}

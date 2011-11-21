@@ -43,7 +43,7 @@ if(!empty($_POST)) {
     <body>
 <?php include "header.php"; ?>
         <div id="body" class="central">
-            <h1>Iscrizione</h1>
+            <h1>Richiesta di associazione</h1>
 <?php if(!$accept): ?>
                 <strong class="error">L'accettazione dell'informativa sulla privacy è necessaria per iscriversi</strong>
 <?php endif; ?>
