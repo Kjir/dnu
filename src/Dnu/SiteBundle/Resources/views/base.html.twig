@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{% block title %}{% block page_title %}Homepage{% endblock %} - Ducato Nuoto Urbino{% endblock %}</title>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="{{ asset('bundles/dnusite/css/style.css') }}">
+		<link rel="stylesheet" type="text/css" href="{{ asset('bundles/dnusite/css/staz.css') }}" media="screen" title="Stazione delle Biciclette">
+		<link rel="alternate stylesheet" type="text/css" href="{{ asset('bundles/dnusite/css/style2.css') }}" media="screen" title="Style 2">
+		<link rel="alternate stylesheet" type="text/css" href="{{ asset('bundles/dnusite/css/blue.css') }}" media="screen" title="Blue theme">
+		<link rel="alternate stylesheet" type="text/css" href="{{ asset('bundles/dnusite/css/yellow.css') }}" media="screen" title="Yellow theme">
+	</head>
+	<body>
+        <div id="container">
+            <div id="header" class="central">
+				{% block page_header %}
+				<div id="logo">
+					<img src="{{ asset('bundles/dnusite/images/logo.png') }}" width="310" height="90" alt="DNU">
+					<div id="op_hours">
+						<h4>orario apertura impianto piscina F.lli Cervi</h4>
+						lun-mer-ven: 10:30 - 13:00 / 15:00 - 22:00<br>
+						mar-gio: 13:00 - 22:00<br>
+						sab: 10:00 - 19:30
+					</div>
+				</div>
+				{% endblock %}
+            </div>
+			<div id="menu" class="central">
+				{% block menu %}
+				<img src="{{ asset('bundles/dnusite/images/papera.png') }}" width="48" height="30" alt="" id="duck">
+				<ul>
+					<li class="first"><a href="{{ path('homepage') }}">Homepage</a></li>
+					<li><a href="{{ path('attivita') }}">Attività</a></li>
+					<li><a href="{{ path('iscrizione') }}">Iscriviti on-line</a></li>
+					<li><a href="{{ path('contatti') }}">Contatti</a></li>
+				</ul>
+				{% endblock %}
+			</div>
+			{% block page_banner %}
+			{% endblock %}
+            <div id="body" class="central">
+				{% block page_body %}{% endblock %}
+			</div>
+            <div id="footer" class="central">
+				{% block page_footer %}
+				<hr>
+				ASD Ducato Nuoto Urbino, Via L. Battiferri, 15 - 61029 Urbino (PU). Sede operativa Piazzale F.lli Cervi, 1 - 61029 Urbino (PU) tel./fax 0722 320 834 cell. 328 748 96 95 e-mail: <a href="mailto:ducatonuoto@gmail.com">ducatonuoto@gmail.com</a> - Pagina Facebook: <a href="http://www.facebook.com/pages/Ducato-Nuoto-Urbino/146388187392"><img src="{{ asset('bundles/dnusite/images/facebook.png') }}" width="20" height="20" alt="Ducato Nuoto Urbino" title="Ducato Nuoto Urbino"></a>
+				{% endblock %}
+            </div>
+        </div>
+        {% block javascript %}
+        {% endblock %}
+	</body>
+</html>

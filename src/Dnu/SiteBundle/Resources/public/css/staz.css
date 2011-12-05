@@ -1,0 +1,76 @@
+div.central {
+    padding: 0 2em;
+}
+
+#menu {
+    padding-bottom: 2em;
+}
+
+#menu ul {
+    text-align: left;
+    padding-left: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu li.current,
+#menu li:hover {
+    border: 0;
+}
+
+#menu a:link,
+#menu a:visited {
+    color: #000;
+}
+
+#menu li:hover a {
+    color: #999;
+}
+
+#banner {
+    /*
+    background-color: #3E96FA;
+    */
+    padding: 2em;
+    text-align: center;
+}
+
+#body {
+	padding-left: 3em;
+}
+
+#submenu a {
+	color: #999;
+}
+
+#submenu li:hover a {
+	color: #000;
+}
+
+#submenu .current a {
+	color: #D00;
+}
+
+.news dl {
+    border-style: none;
+}
+
+.news dt {
+    color: white;
+    /* colore logo *//*
+    background-color: rgb(37, 0, 188);*/
+    background-color: #3E96FA;
+    background-image: none;
+    width: 100%;
+    height: 2em;
+    padding-top: 0.5em;
+    padding-left: 0.2em;
+    border: 2px solid #999;
+    margin-bottom: 0;
+}
+.news dd {
+    border: 2px solid #999;
+    border-top-style: none;
+    margin-top: 0;
+    padding-left: 0.2em;
+    width: 100%;
+}

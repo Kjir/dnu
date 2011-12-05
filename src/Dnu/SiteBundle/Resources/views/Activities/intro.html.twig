@@ -1,0 +1,37 @@
+{% extends 'DnuSiteBundle::base.html.twig' %}
+{% block page_title %}Attività{% endblock %}
+{% block page_body %}
+<h1>Attività</h1>
+<ul class="img_list">
+    <li>
+	<a href="{{ path('attivita', {'attivita': 'sna'}) }}">
+            <img src="{{ asset('bundles/dnusite/images/pictures/sna.jpg') }}" width="230" height="215" title="Scuola Nuoto Adulti" alt="Scuola Nuoto Adulti">
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('attivita', {'attivita': 'snb'}) }}">
+            <img src="{{ asset('bundles/dnusite/images/pictures/snb.jpg') }}" width="230" height="215" title="Scuola Nuoto Bambini" alt="Scuola Nuoto Bambini">
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('attivita', {'attivita': 'acquagym'}) }}">
+            <img src="{{ asset('bundles/dnusite/images/pictures/gym.jpg') }}" width="230" height="215" title="Acquagym" alt="Acquagym">
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('attivita', {'attivita': 'rieducazione'}) }}">
+            <img src="{{ asset('bundles/dnusite/images/pictures/fun.jpg') }}" width="230" height="215" title="Rieducazione Funzionale" alt="Rieducazione Funzionale">
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('attivita', {'attivita': 'libero'}) }}">
+            <img src="{{ asset('bundles/dnusite/images/pictures/lib.jpg') }}" width="230" height="215" title="Nuoto Libero" alt="Nuoto Libero">
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('attivita', {'attivita': 'agonismo'}) }}">
+            <img src="{{ asset('bundles/dnusite/images/pictures/ago.jpg') }}" width="230" height="215" title="Nuoto agonistico" alt="Nuoto agonistico">
+        </a>
+    </li>
+</ul>
+{% endblock %}

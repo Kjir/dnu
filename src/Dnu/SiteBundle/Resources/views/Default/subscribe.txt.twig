@@ -1,0 +1,15 @@
+Un utente ha richiesto di associarsi alla Ducato Nuoto Urbino dal sito internet.
+Cognome: {{ data.lastName }}
+Nome: {{ data.firstName }}
+Comune di nascita: {{ data.birthCommune }}
+Provincia di nascita: {{ data.birthProvince }}
+Data di nascita: {{ data.birthDate.format('d/m/Y') }}
+Nome genitore: {{ data.parentFirstName }}
+Cognome genitore: {{ data.parentLastName }}
+Comune di residenza: {{ data.residencyCommune }}
+Provincia di residenza: {{ data.residencyProvince }}
+Indirizzo: {{ data.address }}
+Numero civico: {{ data.civNum }}
+Telefono: {{ data.telephone }}
+E-mail: {{ data.email }}
+L'utente {% if not data.newsletterAcceptance %}NON {% endif %}desidera essere iscritto alla newletter.

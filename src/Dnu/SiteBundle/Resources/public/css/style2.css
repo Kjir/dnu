@@ -1,0 +1,7 @@
+#menu li.current,
+#menu li:hover {
+	border-bottom: 0.4em solid #D00;
+}
+#menu ul {
+    border-bottom-style: double;
+}

@@ -1,0 +1,10 @@
+#menu li.current a,
+#menu li:hover a {
+    color: #00D;
+}
+
+#menu li.current,
+#menu li:hover {
+	border-bottom: 0.4em solid #00D;
+	padding-bottom: 0.1em;
+}

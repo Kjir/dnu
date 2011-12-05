@@ -1,0 +1,48 @@
+{% extends 'DnuSiteBundle::base.html.twig' %}
+{% block page_title %}{{ act_name }}{% endblock %}
+{% block page_body %}
+<div id="submenu">
+	<ul>
+		<li class="first">
+			<a href="{{ path('attivita', {'attivita': 'sna'}) }}">Scuola Nuoto Adulti</a>
+		</li>
+		<li>
+			<a href="{{ path('attivita', {'attivita': 'snb'}) }}">Scuola Nuoto Bambini</a>
+		</li>
+		<li>
+			<a href="{{ path('attivita', {'attivita': 'acquagym'}) }}">Acquagym</a>
+		</li>
+		<li>
+			<a href="{{ path('attivita', {'attivita': 'rieducazione'}) }}">Rieducazione Funzionale</a>
+		</li>
+		<li>
+			<a href="{{ path('attivita', {'attivita': 'libero'}) }}">Nuoto Libero</a>
+		</li>
+		<li>
+			<a href="{{ path('attivita', {'attivita': 'agonismo'}) }}">Agonismo</a>
+		</li>
+	</ul>
+</div>
+<div>
+	<h1>{{ act_name }}</h1>
+	<h4>{{ act_name|upper }}, PERCHE'?</h4>
+	{% block quote %}<blockquote>{% block quote_text %}{% endblock %}</blockquote>{% endblock %}
+	{% block description %}{% endblock %}
+
+	<h4>ORARI E GIORNI</h4>
+	{% block timetable %}{% endblock %}
+	<h4>COSTI</h4>
+	{% block costtable %}{% endblock %}
+
+	<h5>ISCRIZIONE OBBLIGATORIA</h5>
+    {% block subscription %}
+	<ul>
+		<li>10&euro; per gli adulti</li>
+		<li>7&euro; per i minori di 16 anni</li>
+	</ul>
+    {% endblock %}
+
+	<strong>{% block cert %}PER ISCRIVERSI E' NECESSARIO MUNIRSI DI CERTIFICATO MEDICO
+	DI SANA E ROBUSTA COSTITUZIONE.{% endblock %}</strong>
+</div>
+{% endblock %}

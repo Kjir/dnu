@@ -1,0 +1,37 @@
+Dnu\SiteBundle\Entity\Member:
+    properties:
+        firstName:
+            - NotBlank: ~
+        lastName:
+            - NotBlank: ~
+        birthCommune:
+            - NotBlank: ~
+        birthProvince:
+            - NotBlank: ~
+            - MinLength: 2
+            - MaxLength: 2
+        birthDate:
+            - NotBlank: ~
+            - Type: \DateTime
+        residencyCommune:
+            - NotBlank: ~
+        residencyProvince:
+            - NotBlank: ~
+            - MinLength: 2
+            - MaxLength: 2
+        address:
+            - NotBlank: ~
+        civNum:
+            - NotBlank: ~
+        telephone:
+            - NotBlank: ~
+        email:
+            - Email: ~
+        privacyAcceptance:
+            - Type: boolean
+            - "True": ~
+        termsAcceptance:
+            - Type: boolean
+            - "True": ~
+        newsletterAcceptance:
+            - Type: boolean

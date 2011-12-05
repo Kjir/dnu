@@ -1,0 +1,54 @@
+{% extends 'DnuSiteBundle::base.html.twig' %}
+{% block page_title %}Iscrizione on-line{% endblock %}
+{% block page_body %}
+<h1>Richiesta di associazione</h1>
+<div id="explanation">In questa pagina è possibile registrare i propri dati, i quali saranno inviati automaticamente alla segreteria della Piscina F.lli Cervi. Bisognerà presentarsi presso la segreteria negli orari di apertura per apporre la firma sul modulo di adesione pre-compilato ed ufficializzare la richiesta di adesione all'Associazione Sportiva Dilettantistica Ducato Nuoto Urbino.</div>
+<form action="{{ path('iscrizione') }}" method="post" {{ form_enctype(form) }}>
+{{ form_errors(form) }}
+    <fieldset>
+        <legend>Dati atleta</legend>
+{{ form_row(form.firstName) }}
+{{ form_row(form.lastName) }}
+{{ form_row(form.birthCommune) }}
+{{ form_row(form.birthProvince) }}
+{{ form_row(form.birthDate) }}
+    </fieldset>
+    <fieldset>
+        <legend>Dati genitore (in caso di minore)</legend>
+{{ form_row(form.parentFirstName) }}
+{{ form_row(form.parentLastName) }}
+    </fieldset>
+    <fieldset>
+        <legend>Recapiti</legend>
+{{ form_row(form.residencyCommune) }}
+{{ form_row(form.residencyProvince) }}
+{{ form_row(form.address) }}
+{{ form_row(form.civNum) }}
+{{ form_row(form.telephone) }}
+{{ form_row(form.email) }}
+    </fieldset>
+    <fieldset>
+        <legend>Accettazione</legend>
+{{ form_row(form.privacyText) }}
+        <div>
+            {{ form_widget(form.privacyAcceptance) }}
+            {{ form_label(form.privacyAcceptance) }}
+            {{ form_errors(form.privacyAcceptance) }}
+        </div>
+{{ form_row(form.termsText) }}
+        <div>
+            {{ form_widget(form.termsAcceptance) }}
+            {{ form_label(form.termsAcceptance) }}
+            {{ form_errors(form.termsAcceptance) }}
+        </div>
+        <div>
+            {{ form_widget(form.newsletterAcceptance) }}
+            {{ form_label(form.newsletterAcceptance) }}
+            {{ form_errors(form.newsletterAcceptance) }}
+        </div>
+    </fieldset>
+{{ form_rest(form) }}
+
+    <input type="submit" value="Iscriviti" />
+</form>
+{% endblock %}

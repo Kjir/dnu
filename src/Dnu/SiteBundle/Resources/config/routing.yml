@@ -1,0 +1,26 @@
+hello:
+    pattern:  /hello/{name}
+    defaults: { _controller: DnuSiteBundle:Default:hello }
+
+homepage:
+    pattern:  /
+    defaults: { _controller: DnuSiteBundle:Default:index }
+
+attivita:
+    pattern:  /attivita/{attivita}
+    defaults: { _controller: DnuSiteBundle:Activities:index, attivita:intro }
+    requirements:
+        attivita: intro|sna|snb|acquagym|rieducazione|libero|agonismo
+
+iscrizione:
+    pattern:  /iscriviti
+    defaults: { _controller: DnuSiteBundle:Default:subscribe }
+
+conferma_iscrizione:
+    pattern:  /iscriviti/conferma
+    defaults: { _controller: DnuSiteBundle:Default:subscribeSuccess }
+
+contatti:
+    pattern:  /contatti
+    defaults: { _controller: DnuSiteBundle:Default:contacts }
+
