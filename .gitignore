@@ -1,6 +1,6 @@
-/web/bundles/
-/app/bootstrap*
-/app/cache/*
-/app/logs/*
-/vendor/
-/app/config/parameters.ini
+/www/dnu/bundles/
+/sf2/app/bootstrap*
+/sf2/app/cache/*
+/sf2/app/logs/*
+/sf2/vendor/
+/sf2/app/config/parameters.ini
