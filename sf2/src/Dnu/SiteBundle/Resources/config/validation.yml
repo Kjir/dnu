@@ -1,37 +1,37 @@
 Dnu\SiteBundle\Entity\Member:
     properties:
         firstName:
-            - NotBlank: ~
+            - NotBlank: { message: Il nome è obbligatorio. }
         lastName:
-            - NotBlank: ~
+            - NotBlank: { message: Il cognome è obbligatorio. }
         birthCommune:
-            - NotBlank: ~
+            - NotBlank: { message: Il Comune è obbligatorio. }
         birthProvince:
-            - NotBlank: ~
+            - NotBlank: { message: La Provincia è obbligatoria. }
             - MinLength: 2
             - MaxLength: 2
         birthDate:
-            - NotBlank: ~
+            - NotBlank: { message: La data di nascita è obbligatoria. }
             - Type: \DateTime
         residencyCommune:
-            - NotBlank: ~
+            - NotBlank: { message: Il Comune è obbligatorio. }
         residencyProvince:
-            - NotBlank: ~
+            - NotBlank: { message: La Provincia è obbligatoria. }
             - MinLength: 2
             - MaxLength: 2
         address:
-            - NotBlank: ~
+            - NotBlank: { message: L'indirizzo è obbligatorio. }
         civNum:
-            - NotBlank: ~
+            - NotBlank: { message: Il numero civico è obbligatorio. }
         telephone:
-            - NotBlank: ~
+            - NotBlank: { message: Il telefono è obbligatorio. }
         email:
-            - Email: ~
+            - Email: { message: Inserire un indirizzo e-mail valido. }
         privacyAcceptance:
             - Type: boolean
-            - "True": ~
+            - "True": { message: L'accettazione della privacy è necessaria per proseguire. }
         termsAcceptance:
             - Type: boolean
-            - "True": ~
+            - "True": { message: L'accettazione delle condizioni è necessaria per proseguire. }
         newsletterAcceptance:
             - Type: boolean
