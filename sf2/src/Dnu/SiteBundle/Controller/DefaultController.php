@@ -12,7 +12,16 @@ class DefaultController extends Controller
     
     public function indexAction()
     {
-        return $this->render('DnuSiteBundle:Default:index.html.twig');
+        $em = $this->getDoctrine()->getEntityManager();
+        $query = $em->getRepository('DnuSiteBundle:News')
+            ->createQueryBuilder('n')
+            ->orderBy('n.pubDate', 'DESC')
+            ->setMaxResults(3)
+            ->getQuery();
+        $news = $query->getResult();
+        return $this->render('DnuSiteBundle:Default:index.html.twig', array(
+            'news' => $news,
+        ));
     }
 
     public function contactsAction()

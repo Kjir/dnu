@@ -24,3 +24,9 @@ assetic:
 
 swiftmailer:
     delivery_address:  stephane.bisinger@gmail.com
+
+doctrine:
+    dbal:
+        driver:   pdo_sqlite
+        dbname:   dnu.db3
+        path:     /srv/http/db/dnu.db3

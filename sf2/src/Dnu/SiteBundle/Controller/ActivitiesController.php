@@ -13,8 +13,4 @@ class ActivitiesController extends Controller
         return $this->render('DnuSiteBundle:Activities:' . $attivita . '.html.twig');
     }
 
-    public function contactsAction()
-    {
-        return $this->render('DnuSiteBundle:Default:contacts.html.twig');
-    }
 }

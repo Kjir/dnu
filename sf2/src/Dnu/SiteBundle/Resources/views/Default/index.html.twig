@@ -8,13 +8,10 @@
 <h1>Ultime notizie dalla Ducato Nuoto</h1>
 <div class="news">
 	<dl>
-		<dt>Corsi di nuoto</dt>
-		<dd>Al via la nuova stagione con tutti i corsi di nuoto per bambini e adulti.</dd>
-		<dt>Orari segreteria</dt>
-		<dd>Per informazioni sui corsi o su come iscriversi potete venire a trovarci in segreteria presso la Piscina "F.lli Cervi" dalle ore 16.00 alle ore 20.15 tutti i giorni dal lunedì al venerdì.</dd>
-		<dt>Agonismo</dt>
-		<dd>Nuova stagione per gli atleti della Ducato Nuoto che partono subito forte con delle ottime prestazioni.<br>
-		Per far parte della squadra di nuoto agonistico o di nuoto master chiamare il numero 3287489695 o presentarsi in piscina per fissare una prova.</dd>
+{% for n in news %}
+		<dt>{{ n.title }}</dt>
+		<dd>{{ n.body }}</dd>
+{% endfor %}
 	</dl>
 </div>
 <!--<div class="half left">

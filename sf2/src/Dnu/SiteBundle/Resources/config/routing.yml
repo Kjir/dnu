@@ -1,7 +1,3 @@
-hello:
-    pattern:  /hello/{name}
-    defaults: { _controller: DnuSiteBundle:Default:hello }
-
 homepage:
     pattern:  /
     defaults: { _controller: DnuSiteBundle:Default:index }
@@ -24,3 +20,14 @@ contatti:
     pattern:  /contatti
     defaults: { _controller: DnuSiteBundle:Default:contacts }
 
+admin_news:
+    pattern:  /admin/news/{id}
+    defaults: { _controller: DnuSiteBundle:Admin:news, id: 0 }
+    requirements:
+        id: \d+
+
+admin_news_del:
+    pattern:  /admin/news/delete/{id}
+    defaults: { _controller: DnuSiteBundle:Admin:deleteNews }
+    requirements:
+        id: \d+

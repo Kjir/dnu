@@ -35,3 +35,13 @@ Dnu\SiteBundle\Entity\Member:
             - "True": { message: L'accettazione delle condizioni è necessaria per proseguire. }
         newsletterAcceptance:
             - Type: boolean
+Dnu\SiteBundle\Entity\News:
+    properties:
+        title:
+            - NotBlank: { message: Inserire un titolo. }
+            - MaxLength: 150
+        pubDate:
+            - NotBlank: ~
+            - Type: \DateTime
+        body:
+            - NotBlank: { message: Inserire il testo. }

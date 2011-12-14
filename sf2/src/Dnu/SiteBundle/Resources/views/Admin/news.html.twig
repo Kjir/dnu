@@ -1,0 +1,30 @@
+{% extends 'DnuSiteBundle::base.html.twig' %}
+{% block page_title %}Gestione News{% endblock %}
+{% block page_body %}
+<h1>Gestione News</h1>
+<h2>Inserisci News</h2>
+<form action="{{ path('admin_news', { 'id': id }) }}" method="post" {{ form_enctype(form) }}>
+{{ form_widget(form) }}
+
+    <input type="submit" value="{{ id > 0 ? 'Modifica' : 'Inserisci' }}" />
+</form>
+{% if news|length > 0 %}
+<h2>Modifica/Cancella News</h2>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th></th>
+        <th></th>
+    </tr>
+{% for n in news %}
+    <tr>
+        <td>{{ n.id }}</td>
+        <td>{{ n.title }}</td>
+        <td><a href="{{ path('admin_news', { 'id': n.id }) }}">Modifica</a></td>
+        <td><a href="{{ path('admin_news_del', { 'id': n.id }) }}">Rimuovi</a></td>
+    </tr>
+{% endfor %}
+</table>
+{% endif %}
+{% endblock %}
